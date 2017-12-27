@@ -1,29 +1,28 @@
-var express = require('express'),
-    app = express(),
-    port = process.env.PORT || 27017,
-    mongoose = require('mongoose'),
-    PylintMessage = require('./api/models/pylintModel').model, //created model loading here
-    bodyParser = require('body-parser');
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 27017;
+const mongoose = require('mongoose');
+const PylintMessage = require('./api/models/pylintModel').model;
+const bodyParser = require('body-parser');
 
-// mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/PylintDb');
+mongoose.connect('mongodb://localhost/PylintDb', {
+    useMongoClient: true
+});
 
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
 
-var routes = require('./api/routes/pylintRoutes'); //importing route
-routes(app); //register the route
+const routes = require('./api/routes/pylintRoutes');
+routes(app);
 
 app.use(function (req, res) {
     res.status(404).send({
         url: req.originalUrl + ' not found'
-    })
+    });
 });
 
-
 app.listen(port);
-
 console.log('Pylint RESTful API server started on: ', port);

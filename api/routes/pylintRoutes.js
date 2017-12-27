@@ -1,6 +1,7 @@
 'use strict';
+
 module.exports = function (app) {
-    var messagesList = require('../controllers/pylintController');
+    const messagesList = require('../controllers/pylintController');
 
     app.route('/all')
         .get(messagesList.list_all_messages);

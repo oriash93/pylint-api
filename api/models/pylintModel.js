@@ -1,7 +1,5 @@
 'use strict';
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
-
+const mongoose = require('mongoose');
 const codeLetterToType = {
     'c': 'conventions?',
     'e': 'error',
@@ -12,20 +10,13 @@ const codeLetterToType = {
     'w': 'warning',
 };
 
-var PylintMessageSchema = new Schema({
-    code: {
-        type: String,
-        // required: 'Enter code'
-    },
+let PylintMessageSchema = new mongoose.Schema({
+    code: String,
     messageType: {
         type: String,
-        enum: Object.values(codeLetterToType), //TODO: remove default?
-        default: ['Default']
+        enum: Object.values(codeLetterToType)
     },
-    pageUrl: {
-        type: String,
-        // required: 'Enter url'
-    },
+    pageUrl: String,
     messageContent: String,
     hasPage: Boolean
 });
