@@ -29,7 +29,10 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
-    "mongoose": "^4.13.7"
+    "fs": "0.0.1-security",
+    "mongoose": "^4.13.7",
+    "request": "^2.83.0"
   }
 }
