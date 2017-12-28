@@ -1,12 +1,12 @@
 'use strict';
 const mongoose = require('mongoose');
 const codeLetterToType = {
-    'c': 'conventions?',
+    'c': 'conventions', // TODO: is it though?
     'e': 'error',
     'f': 'format',
     'i': 'information',
-    'r': 'refactor',
-    'rp': 'recommendation',
+    'r': 'refactoring',
+    'rp': 'recommendation', // TODO: is it though?
     'w': 'warning',
 };
 
