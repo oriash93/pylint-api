@@ -1,0 +1,1318 @@
+[
+    {
+        "code": "C0102",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0102",
+        "messageContent": "Black listed name \"%s\"",
+        "hasPage": true
+    },
+    {
+        "code": "C0103",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0103",
+        "messageContent": "Invalid %s name \"%s\"\n\nInvalid constant name \"newline\"\nInvalid variable name \"MyVar\"\nInvalid class name \"myClass\"\n...",
+        "hasPage": true
+    },
+    {
+        "code": "C0111",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0111",
+        "messageContent": "Missing %s docstring\n\nMissing module docstring\nMissing class docstring\n...",
+        "hasPage": true
+    },
+    {
+        "code": "C0112",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0112",
+        "messageContent": "Empty %s docstring\n\nEmpty module docstring\nEmpty function docstring\n...",
+        "hasPage": true
+    },
+    {
+        "code": "C0121",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0121",
+        "messageContent": "Missing required attribute \"%s\"",
+        "hasPage": true
+    },
+    {
+        "code": "C0202",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0202",
+        "messageContent": "Class method %s should have cls as first argument",
+        "hasPage": true
+    },
+    {
+        "code": "C0203",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0203",
+        "messageContent": "Metaclass method %s should have mcs as first argument",
+        "hasPage": true
+    },
+    {
+        "code": "C0204",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0204",
+        "messageContent": "Metaclass class method %s should have %s as first argument",
+        "hasPage": true
+    },
+    {
+        "code": "C0301",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0301",
+        "messageContent": "Line too long (%s/%s)",
+        "hasPage": true
+    },
+    {
+        "code": "C0302",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0302",
+        "messageContent": "Too many lines in module (%s)",
+        "hasPage": true
+    },
+    {
+        "code": "C0303",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0303",
+        "messageContent": "Trailing whitespace",
+        "hasPage": true
+    },
+    {
+        "code": "C0304",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0304",
+        "messageContent": "Final newline missing",
+        "hasPage": true
+    },
+    {
+        "code": "C0321",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0321",
+        "messageContent": "More than one statement on a single line",
+        "hasPage": true
+    },
+    {
+        "code": "C0322",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0322",
+        "messageContent": "Old: Operator not preceded by a space",
+        "hasPage": true
+    },
+    {
+        "code": "C0323",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0323",
+        "messageContent": "Old: Operator not followed by a space",
+        "hasPage": true
+    },
+    {
+        "code": "C0324",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0324",
+        "messageContent": "Old: Comma not followed by a space",
+        "hasPage": true
+    },
+    {
+        "code": "C0325",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0325",
+        "messageContent": "Unnecessary parens after %r keyword",
+        "hasPage": true
+    },
+    {
+        "code": "C0326",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c0326",
+        "messageContent": "%s space %s %s %s\\n%s\n\nExactly one space required before assignment\nExactly one space required after comparison\nNo space allowed before comma\nExactly one space required after comma\nNo space allowed before bracket\nNo space allowed after bracket\nNo space allowed before :",
+        "hasPage": true
+    },
+    {
+        "code": "C1001",
+        "messageType": "conventions",
+        "pageUrl": "/messages:c1001",
+        "messageContent": "Old-style class defined",
+        "hasPage": true
+    },
+    {
+        "code": "E0001",
+        "messageType": "error",
+        "pageUrl": "/messages:e0001",
+        "messageContent": "(syntax error raised for a module; message varies)",
+        "hasPage": true
+    },
+    {
+        "code": "E0011",
+        "messageType": "error",
+        "pageUrl": "/messages:e0011",
+        "messageContent": "Unrecognized file option %r",
+        "hasPage": true
+    },
+    {
+        "code": "E0012",
+        "messageType": "error",
+        "pageUrl": "/messages:e0012",
+        "messageContent": "Bad option value %r",
+        "hasPage": true
+    },
+    {
+        "code": "E0100",
+        "messageType": "error",
+        "pageUrl": "/messages:e0100",
+        "messageContent": "__init__ method is a generator",
+        "hasPage": true
+    },
+    {
+        "code": "E0101",
+        "messageType": "error",
+        "pageUrl": "/messages:e0101",
+        "messageContent": "Explicit return in __init__",
+        "hasPage": true
+    },
+    {
+        "code": "E0102",
+        "messageType": "error",
+        "pageUrl": "/messages:e0102",
+        "messageContent": "%s already defined line %s",
+        "hasPage": true
+    },
+    {
+        "code": "E0103",
+        "messageType": "error",
+        "pageUrl": "/messages:e0103",
+        "messageContent": "%r not properly in loop",
+        "hasPage": true
+    },
+    {
+        "code": "E0104",
+        "messageType": "error",
+        "pageUrl": "/messages:e0104",
+        "messageContent": "Return outside function",
+        "hasPage": true
+    },
+    {
+        "code": "E0105",
+        "messageType": "error",
+        "pageUrl": "/messages:e0105",
+        "messageContent": "Yield outside function",
+        "hasPage": true
+    },
+    {
+        "code": "E0106",
+        "messageType": "error",
+        "pageUrl": "/messages:e0106",
+        "messageContent": "Return with argument inside generator",
+        "hasPage": true
+    },
+    {
+        "code": "E0107",
+        "messageType": "error",
+        "pageUrl": "/messages:e0107",
+        "messageContent": "Use of the non-existent %s operator",
+        "hasPage": true
+    },
+    {
+        "code": "E0108",
+        "messageType": "error",
+        "pageUrl": "/messages:e0108",
+        "messageContent": "Duplicate argument name %s in function definition",
+        "hasPage": true
+    },
+    {
+        "code": "E0202",
+        "messageType": "error",
+        "pageUrl": "/messages:e0202",
+        "messageContent": "",
+        "hasPage": true
+    },
+    {
+        "code": "E0203",
+        "messageType": "error",
+        "pageUrl": "/messages:e0203",
+        "messageContent": "Access to member %r before its definition line %s",
+        "hasPage": true
+    },
+    {
+        "code": "E0211",
+        "messageType": "error",
+        "pageUrl": "/messages:e0211",
+        "messageContent": "Method has no argument",
+        "hasPage": true
+    },
+    {
+        "code": "E0213",
+        "messageType": "error",
+        "pageUrl": "/messages:e0213",
+        "messageContent": "Method should have \"self\" as first argument",
+        "hasPage": true
+    },
+    {
+        "code": "E0221",
+        "messageType": "error",
+        "pageUrl": "/messages:e0221",
+        "messageContent": "Interface resolved to %s is not a class",
+        "hasPage": true
+    },
+    {
+        "code": "E0222",
+        "messageType": "error",
+        "pageUrl": "/messages:e0222",
+        "messageContent": "Missing method %r from %s interface",
+        "hasPage": true
+    },
+    {
+        "code": "E0235",
+        "messageType": "error",
+        "pageUrl": "/messages:e0235",
+        "messageContent": "__exit__ must accept 3 arguments: type, value, traceback",
+        "hasPage": true
+    },
+    {
+        "code": "E0501",
+        "messageType": "error",
+        "pageUrl": "/messages:e0501",
+        "messageContent": "Old: Non ascii characters found but no encoding specified (PEP 263)",
+        "hasPage": true
+    },
+    {
+        "code": "E0502",
+        "messageType": "error",
+        "pageUrl": "/messages:e0502",
+        "messageContent": "Old: Wrong encoding specified (%s)",
+        "hasPage": true
+    },
+    {
+        "code": "E0503",
+        "messageType": "error",
+        "pageUrl": "/messages:e0503",
+        "messageContent": "Old: Unknown encoding specified (%s)",
+        "hasPage": true
+    },
+    {
+        "code": "E0601",
+        "messageType": "error",
+        "pageUrl": "/messages:e0601",
+        "messageContent": "Using variable %r before assignment",
+        "hasPage": true
+    },
+    {
+        "code": "E0602",
+        "messageType": "error",
+        "pageUrl": "/messages:e0602",
+        "messageContent": "Undefined variable %r",
+        "hasPage": true
+    },
+    {
+        "code": "E0603",
+        "messageType": "error",
+        "pageUrl": "/messages:e0603",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E0604",
+        "messageType": "error",
+        "pageUrl": "/messages:e0604",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E0611",
+        "messageType": "error",
+        "pageUrl": "/messages:e0611",
+        "messageContent": "No name %r in module %r",
+        "hasPage": true
+    },
+    {
+        "code": "E0701",
+        "messageType": "error",
+        "pageUrl": "/messages:e0701",
+        "messageContent": "Bad except clauses order (%s)",
+        "hasPage": true
+    },
+    {
+        "code": "E0702",
+        "messageType": "error",
+        "pageUrl": "/messages:e0702",
+        "messageContent": "Raising %s while only classes, instances or string are allowed",
+        "hasPage": true
+    },
+    {
+        "code": "E0710",
+        "messageType": "error",
+        "pageUrl": "/messages:e0710",
+        "messageContent": "Raising a new style class which doesn't inherit from BaseException",
+        "hasPage": true
+    },
+    {
+        "code": "E0711",
+        "messageType": "error",
+        "pageUrl": "/messages:e0711",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E0712",
+        "messageType": "error",
+        "pageUrl": "/messages:e0712",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1001",
+        "messageType": "error",
+        "pageUrl": "/messages:e1001",
+        "messageContent": "Use of __slots__ on an old style class",
+        "hasPage": true
+    },
+    {
+        "code": "E1002",
+        "messageType": "error",
+        "pageUrl": "/messages:e1002",
+        "messageContent": "Use of super on an old style class",
+        "hasPage": true
+    },
+    {
+        "code": "E1003",
+        "messageType": "error",
+        "pageUrl": "/messages:e1003",
+        "messageContent": "Bad first argument %r given to super()",
+        "hasPage": true
+    },
+    {
+        "code": "E1004",
+        "messageType": "error",
+        "pageUrl": "/messages:e1004",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1101",
+        "messageType": "error",
+        "pageUrl": "/messages:e1101",
+        "messageContent": "%s %r has no %r member\n\nFunction %r has no %r member\nVariable %r has no %r member\n. . .",
+        "hasPage": true
+    },
+    {
+        "code": "E1102",
+        "messageType": "error",
+        "pageUrl": "/messages:e1102",
+        "messageContent": "%s is not callable",
+        "hasPage": true
+    },
+    {
+        "code": "E1103",
+        "messageType": "error",
+        "pageUrl": "/messages:e1103",
+        "messageContent": "%s %r has no %r member (but some types could not be inferred)",
+        "hasPage": true
+    },
+    {
+        "code": "E1111",
+        "messageType": "error",
+        "pageUrl": "/messages:e1111",
+        "messageContent": "Assigning to function call which doesn't return",
+        "hasPage": true
+    },
+    {
+        "code": "E1120",
+        "messageType": "error",
+        "pageUrl": "/messages:e1120",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1121",
+        "messageType": "error",
+        "pageUrl": "/messages:e1121",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1122",
+        "messageType": "error",
+        "pageUrl": "/messages:e1122",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1123",
+        "messageType": "error",
+        "pageUrl": "/messages:e1123",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1124",
+        "messageType": "error",
+        "pageUrl": "/messages:e1124",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1125",
+        "messageType": "error",
+        "pageUrl": "/messages:e1125",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1200",
+        "messageType": "error",
+        "pageUrl": "/messages:e1200",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1201",
+        "messageType": "error",
+        "pageUrl": "/messages:e1201",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1205",
+        "messageType": "error",
+        "pageUrl": "/messages:e1205",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1206",
+        "messageType": "error",
+        "pageUrl": "/messages:e1206",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1300",
+        "messageType": "error",
+        "pageUrl": "/messages:e1300",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1301",
+        "messageType": "error",
+        "pageUrl": "/messages:e1301",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1302",
+        "messageType": "error",
+        "pageUrl": "/messages:e1302",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1303",
+        "messageType": "error",
+        "pageUrl": "/messages:e1303",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1304",
+        "messageType": "error",
+        "pageUrl": "/messages:e1304",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "E1305",
+        "messageType": "error",
+        "pageUrl": "/messages:e1305",
+        "messageContent": "Used when a format string that uses unnamed conversion specifiers is given too many arguments.",
+        "hasPage": true
+    },
+    {
+        "code": "E1306",
+        "messageType": "error",
+        "pageUrl": "/messages:e1306",
+        "messageContent": "Used when a format string that uses unnamed conversion specifiers is given too few arguments",
+        "hasPage": true
+    },
+    {
+        "code": "E1310",
+        "messageType": "error",
+        "pageUrl": "/messages:e1310",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "F0001",
+        "messageType": "format",
+        "pageUrl": "/messages:f0001",
+        "messageContent": "(error prevented analysis; message varies)",
+        "hasPage": true
+    },
+    {
+        "code": "F0002",
+        "messageType": "format",
+        "pageUrl": "/messages:f0002",
+        "messageContent": "%s: %s (message varies)",
+        "hasPage": true
+    },
+    {
+        "code": "F0003",
+        "messageType": "format",
+        "pageUrl": "/messages:f0003",
+        "messageContent": "ignored builtin module %s",
+        "hasPage": true
+    },
+    {
+        "code": "F0004",
+        "messageType": "format",
+        "pageUrl": "/messages:f0004",
+        "messageContent": "unexpected inferred value %s",
+        "hasPage": true
+    },
+    {
+        "code": "F0010",
+        "messageType": "format",
+        "pageUrl": "/messages:f0010",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "F0202",
+        "messageType": "format",
+        "pageUrl": "/messages:f0202",
+        "messageContent": "Unable to check methods signature (%s / %s)",
+        "hasPage": true
+    },
+    {
+        "code": "F0220",
+        "messageType": "format",
+        "pageUrl": "/messages:f0220",
+        "messageContent": "failed to resolve interfaces implemented by %s (%s)",
+        "hasPage": true
+    },
+    {
+        "code": "F0321",
+        "messageType": "format",
+        "pageUrl": "/messages:f0321",
+        "messageContent": "Format detection error in %r",
+        "hasPage": true
+    },
+    {
+        "code": "F0401",
+        "messageType": "format",
+        "pageUrl": "/messages:f0401",
+        "messageContent": "Unable to import %s",
+        "hasPage": true
+    },
+    {
+        "code": "I0001",
+        "messageType": "information",
+        "pageUrl": "/messages:i0001",
+        "messageContent": "Unable to run raw checkers on built-in module %s",
+        "hasPage": true
+    },
+    {
+        "code": "I0010",
+        "messageType": "information",
+        "pageUrl": "/messages:i0010",
+        "messageContent": "Unable to consider inline option %r",
+        "hasPage": true
+    },
+    {
+        "code": "I0011",
+        "messageType": "information",
+        "pageUrl": "/messages:i0011",
+        "messageContent": "Locally disabling %s",
+        "hasPage": true
+    },
+    {
+        "code": "I0012",
+        "messageType": "information",
+        "pageUrl": "/messages:i0012",
+        "messageContent": "Locally enabling %s",
+        "hasPage": true
+    },
+    {
+        "code": "I0013",
+        "messageType": "information",
+        "pageUrl": "/messages:i0013",
+        "messageContent": "Ignoring entire file",
+        "hasPage": true
+    },
+    {
+        "code": "I0014",
+        "messageType": "information",
+        "pageUrl": "/messages:i0014",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "I0020",
+        "messageType": "information",
+        "pageUrl": "/messages:i0020",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "I0021",
+        "messageType": "information",
+        "pageUrl": "/messages:i0021",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "I0022",
+        "messageType": "information",
+        "pageUrl": "/messages:i0022",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0201",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0201",
+        "messageContent": "Method could be a function",
+        "hasPage": true
+    },
+    {
+        "code": "R0401",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0401",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0801",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0801",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0901",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0901",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0902",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0902",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0903",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0903",
+        "messageContent": "To quote Blender from StackOverflow:\n\n\"The error basically says that classes aren't meant to just store data, as you're basically treating the class as a dictionary.\"\n\nSee [http://stackoverflow.com/questions/14027417/what-does-pylints-too-few-public-methods-message-mean StackOverflow: What does pylint's “Too few public methods” message mean]",
+        "hasPage": true
+    },
+    {
+        "code": "R0904",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0904",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0911",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0911",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0912",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0912",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0913",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0913",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0914",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0914",
+        "messageContent": "Too many local variables (%s/%s)",
+        "hasPage": true
+    },
+    {
+        "code": "R0915",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0915",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0921",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0921",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0922",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0922",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "R0923",
+        "messageType": "refactoring",
+        "pageUrl": "/messages:r0923",
+        "messageContent": "Interface not implemented",
+        "hasPage": true
+    },
+    {
+        "code": "W0101",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0101",
+        "messageContent": "Unreachable code",
+        "hasPage": true
+    },
+    {
+        "code": "W0102",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0102",
+        "messageContent": "Dangerous default value %s as argument",
+        "hasPage": true
+    },
+    {
+        "code": "W0104",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0104",
+        "messageContent": "Statement seems to have no effect",
+        "hasPage": true
+    },
+    {
+        "code": "W0105",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0105",
+        "messageContent": "String statement has no effect",
+        "hasPage": true
+    },
+    {
+        "code": "W0106",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0106",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0107",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0107",
+        "messageContent": "Unnecessary pass statement",
+        "hasPage": true
+    },
+    {
+        "code": "W0108",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0108",
+        "messageContent": "Lambda may not be necessary",
+        "hasPage": true
+    },
+    {
+        "code": "W0109",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0109",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0110",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0110",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0120",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0120",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0121",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0121",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0122",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0122",
+        "messageContent": "Use of exec",
+        "hasPage": true
+    },
+    {
+        "code": "W0141",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0141",
+        "messageContent": "Used builtin function %r",
+        "hasPage": true
+    },
+    {
+        "code": "W0142",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0142",
+        "messageContent": "Used * or ** magic",
+        "hasPage": true
+    },
+    {
+        "code": "W0150",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0150",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0199",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0199",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0201",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0201",
+        "messageContent": "Attribute %r defined outside __init__",
+        "hasPage": true
+    },
+    {
+        "code": "W0211",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0211",
+        "messageContent": "Static method with %r as first argument",
+        "hasPage": true
+    },
+    {
+        "code": "W0212",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0212",
+        "messageContent": "Access to a protected member %s of a client class",
+        "hasPage": true
+    },
+    {
+        "code": "W0221",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0221",
+        "messageContent": "Arguments number differs from %s method",
+        "hasPage": true
+    },
+    {
+        "code": "W0222",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0222",
+        "messageContent": "Signature differs from %s method",
+        "hasPage": true
+    },
+    {
+        "code": "W0223",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0223",
+        "messageContent": "Method %r is abstract in class %r but is not overridden",
+        "hasPage": true
+    },
+    {
+        "code": "W0231",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0231",
+        "messageContent": "__init__ method from base class %r is not called",
+        "hasPage": true
+    },
+    {
+        "code": "W0232",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0232",
+        "messageContent": "Class has no __init__ method",
+        "hasPage": true
+    },
+    {
+        "code": "W0233",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0233",
+        "messageContent": "__init__ method from a non direct base class %r is called",
+        "hasPage": true
+    },
+    {
+        "code": "W0234",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0234",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0301",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0301",
+        "messageContent": "Unnecessary semicolon",
+        "hasPage": true
+    },
+    {
+        "code": "W0311",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0311",
+        "messageContent": "Bad indentation. Found %s %s, expected %s",
+        "hasPage": true
+    },
+    {
+        "code": "W0312",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0312",
+        "messageContent": "Found indentation with %ss instead of %ss\n\nFound indentation with tabs instead of spaces\nFound indentation with spaces instead of tabs",
+        "hasPage": true
+    },
+    {
+        "code": "W0331",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0331",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0332",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0332",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0333",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0333",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0401",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0401",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0402",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0402",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0403",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0403",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0404",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0404",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0406",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0406",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0410",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0410",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0511",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0511",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0512",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0512",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0601",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0601",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0602",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0602",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0603",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0603",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0604",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0604",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0611",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0611",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0612",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0612",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0613",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0613",
+        "messageContent": "Unused argument %r",
+        "hasPage": true
+    },
+    {
+        "code": "W0614",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0614",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0621",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0621",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0622",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0622",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0623",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0623",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0631",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0631",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0632",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0632",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0633",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0633",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0701",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0701",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0702",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0702",
+        "messageContent": "++ Message:\n\nNo exception type(s) specified\n\n++ Description:\n\nUsed when an except clause doesn’t specify exceptions type to catch.\n\n++ Explanation:\n\nCatching exceptions should be as precise as possible. The type of exceptions that can be raised should be known in advance. Using a catch-all Exception instance defeats the purpose of knowing the type of error that occured, and prohibits the use of tailored responses.",
+        "hasPage": true
+    },
+    {
+        "code": "W0703",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0703",
+        "messageContent": "Catching too general exception %s",
+        "hasPage": true
+    },
+    {
+        "code": "W0704",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0704",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0710",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0710",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0711",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0711",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W0712",
+        "messageType": "warning",
+        "pageUrl": "/messages:w0712",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W1001",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1001",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W1111",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1111",
+        "messageContent": "Assigning to function call which only returns None",
+        "hasPage": true
+    },
+    {
+        "code": "W1201",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1201",
+        "messageContent": "Specify string format arguments as logging function parameters",
+        "hasPage": true
+    },
+    {
+        "code": "W1300",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1300",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W1301",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1301",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W1401",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1401",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W1402",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1402",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "W1501",
+        "messageType": "warning",
+        "pageUrl": "/messages:w1501",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0001",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0001",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0002",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0002",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0003",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0003",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0004",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0004",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0101",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0101",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0401",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0401",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0402",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0402",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0701",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0701",
+        "messageContent": "",
+        "hasPage": false
+    },
+    {
+        "code": "RP0801",
+        "messageType": "recommendation",
+        "pageUrl": "/messages:rp0801",
+        "messageContent": "",
+        "hasPage": false
+    }
+]

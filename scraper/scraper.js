@@ -3,7 +3,7 @@ const request = require('request');
 const fs = require('fs');
 
 const allMessages = [];
-const outputFilename = 'output.json';
+const outputFilename = 'scraper/data.json';
 const baseUrl = 'http://pylint-messages.wikidot.com';
 const allCodesUrl = baseUrl + '/all-codes';
 const codeTypes = require('../api/models/pylintModel').types;
