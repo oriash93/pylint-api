@@ -6,33 +6,23 @@ const allMessages = [];
 const outputFilename = 'scraper/data.json';
 const baseUrl = 'http://pylint-messages.wikidot.com';
 const allCodesUrl = baseUrl + '/all-codes';
+const messageUrl = baseUrl + '/messages:';
 const codeTypes = require('../api/models/pylintModel').types;
 
 function parseAllCodesPage(data) {
     let $ = cheerio.load(data);
-    $('p a[href*="messages:"]').each(function () {
-        let html = $(this);
-        let codeParts = html.text().match(/([A-Za-z]+)([0-9]+)/);
+    let paragraph = $('div#page-content p:nth-child(2)');
+    var lines = paragraph.text().split('\n');
+    lines.forEach(function (line) {
+        let code = line.slice(0, 5).toLowerCase();
         let item = {
-            code: codeParts[0],
-            messageType: codeTypes[codeParts[1].toLowerCase()],
-            pageUrl: html.attr('href'),
-            messageContent: '',
-            hasPage: !html.hasClass('newpage')
+            code: code,
+            messageType: codeTypes[code[0]],
+            pageUrl: messageUrl + code,
+            messageContent: line.slice(7)
         };
         allMessages.push(item);
     });
-}
-
-function parseCodePage(data) {
-    let $ = cheerio.load(data);
-    let html = $('h2#toc0').next('div.code').find('code');
-    return html.text();
-}
-
-function handleMessage(data) {
-    const messageData = parseCodePage(data);
-    return messageData;
 }
 
 function writeToFile() {
@@ -42,17 +32,7 @@ function writeToFile() {
 async function main() {
     const codesResponse = await request(allCodesUrl, function (error, response, body) {
         parseAllCodesPage(body);
-        allMessages.forEach(async function (message) {
-            if (message.hasPage) {
-                let codePageUrl = baseUrl + message.pageUrl;
-                const codePageResponse = await request(codePageUrl, function (error, response, body) {
-                    message.messageContent = handleMessage(body);
-                    writeToFile();
-                });
-            } else {
-                writeToFile();
-            }
-        });
+        writeToFile();
     });
 }
 

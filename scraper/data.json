@@ -1,1318 +1,1076 @@
 [
     {
-        "code": "C0102",
+        "code": "c0102",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0102",
-        "messageContent": "Black listed name \"%s\"",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0102",
+        "messageContent": "Black listed name \"%s\""
     },
     {
-        "code": "C0103",
+        "code": "c0103",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0103",
-        "messageContent": "Invalid %s name \"%s\"\n\nInvalid constant name \"newline\"\nInvalid variable name \"MyVar\"\nInvalid class name \"myClass\"\n...",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0103",
+        "messageContent": "Invalid %s name \"%s\""
     },
     {
-        "code": "C0111",
+        "code": "c0111",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0111",
-        "messageContent": "Missing %s docstring\n\nMissing module docstring\nMissing class docstring\n...",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0111",
+        "messageContent": "Missing %s docstring"
     },
     {
-        "code": "C0112",
+        "code": "c0112",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0112",
-        "messageContent": "Empty %s docstring\n\nEmpty module docstring\nEmpty function docstring\n...",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0112",
+        "messageContent": "Empty %s docstring"
     },
     {
-        "code": "C0121",
+        "code": "c0121",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0121",
-        "messageContent": "Missing required attribute \"%s\"",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0121",
+        "messageContent": "Missing required attribute \"%s\""
     },
     {
-        "code": "C0202",
+        "code": "c0202",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0202",
-        "messageContent": "Class method %s should have cls as first argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0202",
+        "messageContent": "Class method %s should have cls as first argument"
     },
     {
-        "code": "C0203",
+        "code": "c0203",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0203",
-        "messageContent": "Metaclass method %s should have mcs as first argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0203",
+        "messageContent": "Metaclass method %s should have mcs as first argument"
     },
     {
-        "code": "C0204",
+        "code": "c0204",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0204",
-        "messageContent": "Metaclass class method %s should have %s as first argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0204",
+        "messageContent": "Metaclass class method %s should have %s as first argument"
     },
     {
-        "code": "C0301",
+        "code": "c0301",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0301",
-        "messageContent": "Line too long (%s/%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0301",
+        "messageContent": "Line too long (%s/%s)"
     },
     {
-        "code": "C0302",
+        "code": "c0302",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0302",
-        "messageContent": "Too many lines in module (%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0302",
+        "messageContent": "Too many lines in module (%s)"
     },
     {
-        "code": "C0303",
+        "code": "c0303",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0303",
-        "messageContent": "Trailing whitespace",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0303",
+        "messageContent": "Trailing whitespace"
     },
     {
-        "code": "C0304",
+        "code": "c0304",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0304",
-        "messageContent": "Final newline missing",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0304",
+        "messageContent": "Final newline missing"
     },
     {
-        "code": "C0321",
+        "code": "c0321",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0321",
-        "messageContent": "More than one statement on a single line",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0321",
+        "messageContent": "More than one statement on a single line"
     },
     {
-        "code": "C0322",
+        "code": "c0322",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0322",
-        "messageContent": "Old: Operator not preceded by a space",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0322",
+        "messageContent": "Old: Operator not preceded by a space"
     },
     {
-        "code": "C0323",
+        "code": "c0323",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0323",
-        "messageContent": "Old: Operator not followed by a space",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0323",
+        "messageContent": "Old: Operator not followed by a space"
     },
     {
-        "code": "C0324",
+        "code": "c0324",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0324",
-        "messageContent": "Old: Comma not followed by a space",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0324",
+        "messageContent": "Old: Comma not followed by a space"
     },
     {
-        "code": "C0325",
+        "code": "c0325",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0325",
-        "messageContent": "Unnecessary parens after %r keyword",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0325",
+        "messageContent": "Unnecessary parens after %r keyword"
     },
     {
-        "code": "C0326",
+        "code": "c0326",
         "messageType": "conventions",
-        "pageUrl": "/messages:c0326",
-        "messageContent": "%s space %s %s %s\\n%s\n\nExactly one space required before assignment\nExactly one space required after comparison\nNo space allowed before comma\nExactly one space required after comma\nNo space allowed before bracket\nNo space allowed after bracket\nNo space allowed before :",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c0326",
+        "messageContent": "%s space %s %s %s\\n%s"
     },
     {
-        "code": "C1001",
+        "code": "c1001",
         "messageType": "conventions",
-        "pageUrl": "/messages:c1001",
-        "messageContent": "Old-style class defined",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:c1001",
+        "messageContent": "Old-style class defined."
     },
     {
-        "code": "E0001",
+        "code": "e0001",
         "messageType": "error",
-        "pageUrl": "/messages:e0001",
-        "messageContent": "(syntax error raised for a module; message varies)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0001",
+        "messageContent": "(syntax error raised for a module; message varies)"
     },
     {
-        "code": "E0011",
+        "code": "e0011",
         "messageType": "error",
-        "pageUrl": "/messages:e0011",
-        "messageContent": "Unrecognized file option %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0011",
+        "messageContent": "Unrecognized file option %r"
     },
     {
-        "code": "E0012",
+        "code": "e0012",
         "messageType": "error",
-        "pageUrl": "/messages:e0012",
-        "messageContent": "Bad option value %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0012",
+        "messageContent": "Bad option value %r"
     },
     {
-        "code": "E0100",
+        "code": "e0100",
         "messageType": "error",
-        "pageUrl": "/messages:e0100",
-        "messageContent": "__init__ method is a generator",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0100",
+        "messageContent": "__init__ method is a generator"
     },
     {
-        "code": "E0101",
+        "code": "e0101",
         "messageType": "error",
-        "pageUrl": "/messages:e0101",
-        "messageContent": "Explicit return in __init__",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0101",
+        "messageContent": "Explicit return in __init__"
     },
     {
-        "code": "E0102",
+        "code": "e0102",
         "messageType": "error",
-        "pageUrl": "/messages:e0102",
-        "messageContent": "%s already defined line %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0102",
+        "messageContent": "%s already defined line %s"
     },
     {
-        "code": "E0103",
+        "code": "e0103",
         "messageType": "error",
-        "pageUrl": "/messages:e0103",
-        "messageContent": "%r not properly in loop",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0103",
+        "messageContent": "%r not properly in loop"
     },
     {
-        "code": "E0104",
+        "code": "e0104",
         "messageType": "error",
-        "pageUrl": "/messages:e0104",
-        "messageContent": "Return outside function",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0104",
+        "messageContent": "Return outside function"
     },
     {
-        "code": "E0105",
+        "code": "e0105",
         "messageType": "error",
-        "pageUrl": "/messages:e0105",
-        "messageContent": "Yield outside function",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0105",
+        "messageContent": "Yield outside function"
     },
     {
-        "code": "E0106",
+        "code": "e0106",
         "messageType": "error",
-        "pageUrl": "/messages:e0106",
-        "messageContent": "Return with argument inside generator",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0106",
+        "messageContent": "Return with argument inside generator"
     },
     {
-        "code": "E0107",
+        "code": "e0107",
         "messageType": "error",
-        "pageUrl": "/messages:e0107",
-        "messageContent": "Use of the non-existent %s operator",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0107",
+        "messageContent": "Use of the non-existent %s operator"
     },
     {
-        "code": "E0108",
+        "code": "e0108",
         "messageType": "error",
-        "pageUrl": "/messages:e0108",
-        "messageContent": "Duplicate argument name %s in function definition",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0108",
+        "messageContent": "Duplicate argument name %s in function definition"
     },
     {
-        "code": "E0202",
+        "code": "e0202",
         "messageType": "error",
-        "pageUrl": "/messages:e0202",
-        "messageContent": "",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0202",
+        "messageContent": "An attribute affected in %s line %s hide this method"
     },
     {
-        "code": "E0203",
+        "code": "e0203",
         "messageType": "error",
-        "pageUrl": "/messages:e0203",
-        "messageContent": "Access to member %r before its definition line %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0203",
+        "messageContent": "Access to member %r before its definition line %s"
     },
     {
-        "code": "E0211",
+        "code": "e0211",
         "messageType": "error",
-        "pageUrl": "/messages:e0211",
-        "messageContent": "Method has no argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0211",
+        "messageContent": "Method has no argument"
     },
     {
-        "code": "E0213",
+        "code": "e0213",
         "messageType": "error",
-        "pageUrl": "/messages:e0213",
-        "messageContent": "Method should have \"self\" as first argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0213",
+        "messageContent": "Method should have \"self\" as first argument"
     },
     {
-        "code": "E0221",
+        "code": "e0221",
         "messageType": "error",
-        "pageUrl": "/messages:e0221",
-        "messageContent": "Interface resolved to %s is not a class",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0221",
+        "messageContent": "Interface resolved to %s is not a class"
     },
     {
-        "code": "E0222",
+        "code": "e0222",
         "messageType": "error",
-        "pageUrl": "/messages:e0222",
-        "messageContent": "Missing method %r from %s interface",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0222",
+        "messageContent": "Missing method %r from %s interface"
     },
     {
-        "code": "E0235",
+        "code": "e0235",
         "messageType": "error",
-        "pageUrl": "/messages:e0235",
-        "messageContent": "__exit__ must accept 3 arguments: type, value, traceback",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0235",
+        "messageContent": "__exit__ must accept 3 arguments: type, value, traceback"
     },
     {
-        "code": "E0501",
+        "code": "e0501",
         "messageType": "error",
-        "pageUrl": "/messages:e0501",
-        "messageContent": "Old: Non ascii characters found but no encoding specified (PEP 263)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0501",
+        "messageContent": "Old: Non ascii characters found but no encoding specified (PEP 263)"
     },
     {
-        "code": "E0502",
+        "code": "e0502",
         "messageType": "error",
-        "pageUrl": "/messages:e0502",
-        "messageContent": "Old: Wrong encoding specified (%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0502",
+        "messageContent": "Old: Wrong encoding specified (%s)"
     },
     {
-        "code": "E0503",
+        "code": "e0503",
         "messageType": "error",
-        "pageUrl": "/messages:e0503",
-        "messageContent": "Old: Unknown encoding specified (%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0503",
+        "messageContent": "Old: Unknown encoding specified (%s)"
     },
     {
-        "code": "E0601",
+        "code": "e0601",
         "messageType": "error",
-        "pageUrl": "/messages:e0601",
-        "messageContent": "Using variable %r before assignment",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0601",
+        "messageContent": "Using variable %r before assignment"
     },
     {
-        "code": "E0602",
+        "code": "e0602",
         "messageType": "error",
-        "pageUrl": "/messages:e0602",
-        "messageContent": "Undefined variable %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0602",
+        "messageContent": "Undefined variable %r"
     },
     {
-        "code": "E0603",
+        "code": "e0603",
         "messageType": "error",
-        "pageUrl": "/messages:e0603",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0603",
+        "messageContent": "Undefined variable name %r in __all__"
     },
     {
-        "code": "E0604",
+        "code": "e0604",
         "messageType": "error",
-        "pageUrl": "/messages:e0604",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0604",
+        "messageContent": "Invalid object %r in __all__, must contain only strings"
     },
     {
-        "code": "E0611",
+        "code": "e0611",
         "messageType": "error",
-        "pageUrl": "/messages:e0611",
-        "messageContent": "No name %r in module %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0611",
+        "messageContent": "No name %r in module %r"
     },
     {
-        "code": "E0701",
+        "code": "e0701",
         "messageType": "error",
-        "pageUrl": "/messages:e0701",
-        "messageContent": "Bad except clauses order (%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0701",
+        "messageContent": "Bad except clauses order (%s)"
     },
     {
-        "code": "E0702",
+        "code": "e0702",
         "messageType": "error",
-        "pageUrl": "/messages:e0702",
-        "messageContent": "Raising %s while only classes, instances or string are allowed",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0702",
+        "messageContent": "Raising %s while only classes, instances or string are allowed"
     },
     {
-        "code": "E0710",
+        "code": "e0710",
         "messageType": "error",
-        "pageUrl": "/messages:e0710",
-        "messageContent": "Raising a new style class which doesn't inherit from BaseException",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0710",
+        "messageContent": "Raising a new style class which doesn't inherit from BaseException"
     },
     {
-        "code": "E0711",
+        "code": "e0711",
         "messageType": "error",
-        "pageUrl": "/messages:e0711",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0711",
+        "messageContent": "NotImplemented raised - should raise NotImplementedError"
     },
     {
-        "code": "E0712",
+        "code": "e0712",
         "messageType": "error",
-        "pageUrl": "/messages:e0712",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e0712",
+        "messageContent": "Catching an exception which doesn\\'t inherit from BaseException: %s"
     },
     {
-        "code": "E1001",
+        "code": "e1001",
         "messageType": "error",
-        "pageUrl": "/messages:e1001",
-        "messageContent": "Use of __slots__ on an old style class",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1001",
+        "messageContent": "Use of __slots__ on an old style class"
     },
     {
-        "code": "E1002",
+        "code": "e1002",
         "messageType": "error",
-        "pageUrl": "/messages:e1002",
-        "messageContent": "Use of super on an old style class",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1002",
+        "messageContent": "Use of super on an old style class"
     },
     {
-        "code": "E1003",
+        "code": "e1003",
         "messageType": "error",
-        "pageUrl": "/messages:e1003",
-        "messageContent": "Bad first argument %r given to super()",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1003",
+        "messageContent": "Bad first argument %r given to super()"
     },
     {
-        "code": "E1004",
+        "code": "e1004",
         "messageType": "error",
-        "pageUrl": "/messages:e1004",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1004",
+        "messageContent": "Missing argument to super()"
     },
     {
-        "code": "E1101",
+        "code": "e1101",
         "messageType": "error",
-        "pageUrl": "/messages:e1101",
-        "messageContent": "%s %r has no %r member\n\nFunction %r has no %r member\nVariable %r has no %r member\n. . .",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1101",
+        "messageContent": "%s %r has no %r member"
     },
     {
-        "code": "E1102",
+        "code": "e1102",
         "messageType": "error",
-        "pageUrl": "/messages:e1102",
-        "messageContent": "%s is not callable",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1102",
+        "messageContent": "%s is not callable"
     },
     {
-        "code": "E1103",
+        "code": "e1103",
         "messageType": "error",
-        "pageUrl": "/messages:e1103",
-        "messageContent": "%s %r has no %r member (but some types could not be inferred)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1103",
+        "messageContent": "%s %r has no %r member (but some types could not be inferred)"
     },
     {
-        "code": "E1111",
+        "code": "e1111",
         "messageType": "error",
-        "pageUrl": "/messages:e1111",
-        "messageContent": "Assigning to function call which doesn't return",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1111",
+        "messageContent": "Assigning to function call which doesn't return"
     },
     {
-        "code": "E1120",
+        "code": "e1120",
         "messageType": "error",
-        "pageUrl": "/messages:e1120",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1120",
+        "messageContent": "No value passed for parameter %s in function call"
     },
     {
-        "code": "E1121",
+        "code": "e1121",
         "messageType": "error",
-        "pageUrl": "/messages:e1121",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1121",
+        "messageContent": "Too many positional arguments for function call"
     },
     {
-        "code": "E1122",
+        "code": "e1122",
         "messageType": "error",
-        "pageUrl": "/messages:e1122",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1122",
+        "messageContent": "Old: Duplicate keyword argument %r in function call"
     },
     {
-        "code": "E1123",
+        "code": "e1123",
         "messageType": "error",
-        "pageUrl": "/messages:e1123",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1123",
+        "messageContent": "Passing unexpected keyword argument %r in function call"
     },
     {
-        "code": "E1124",
+        "code": "e1124",
         "messageType": "error",
-        "pageUrl": "/messages:e1124",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1124",
+        "messageContent": "Parameter %r passed as both positional and keyword argument"
     },
     {
-        "code": "E1125",
+        "code": "e1125",
         "messageType": "error",
-        "pageUrl": "/messages:e1125",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1125",
+        "messageContent": "Old: Missing mandatory keyword argument %r"
     },
     {
-        "code": "E1200",
+        "code": "e1200",
         "messageType": "error",
-        "pageUrl": "/messages:e1200",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1200",
+        "messageContent": "Unsupported logging format character %r (%#02x) at index %d"
     },
     {
-        "code": "E1201",
+        "code": "e1201",
         "messageType": "error",
-        "pageUrl": "/messages:e1201",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1201",
+        "messageContent": "Logging format string ends in middle of conversion specifier"
     },
     {
-        "code": "E1205",
+        "code": "e1205",
         "messageType": "error",
-        "pageUrl": "/messages:e1205",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1205",
+        "messageContent": "Too many arguments for logging format string"
     },
     {
-        "code": "E1206",
+        "code": "e1206",
         "messageType": "error",
-        "pageUrl": "/messages:e1206",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1206",
+        "messageContent": "Not enough arguments for logging format string"
     },
     {
-        "code": "E1300",
+        "code": "e1300",
         "messageType": "error",
-        "pageUrl": "/messages:e1300",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1300",
+        "messageContent": "Unsupported format character %r (%#02x) at index %d"
     },
     {
-        "code": "E1301",
+        "code": "e1301",
         "messageType": "error",
-        "pageUrl": "/messages:e1301",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1301",
+        "messageContent": "Format string ends in middle of conversion specifier"
     },
     {
-        "code": "E1302",
+        "code": "e1302",
         "messageType": "error",
-        "pageUrl": "/messages:e1302",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1302",
+        "messageContent": "Mixing named and unnamed conversion specifiers in format string"
     },
     {
-        "code": "E1303",
+        "code": "e1303",
         "messageType": "error",
-        "pageUrl": "/messages:e1303",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1303",
+        "messageContent": "Expected mapping for format string, not %s"
     },
     {
-        "code": "E1304",
+        "code": "e1304",
         "messageType": "error",
-        "pageUrl": "/messages:e1304",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1304",
+        "messageContent": "Missing key %r in format string dictionary"
     },
     {
-        "code": "E1305",
+        "code": "e1305",
         "messageType": "error",
-        "pageUrl": "/messages:e1305",
-        "messageContent": "Used when a format string that uses unnamed conversion specifiers is given too many arguments.",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1305",
+        "messageContent": "Too many arguments for format string"
     },
     {
-        "code": "E1306",
+        "code": "e1306",
         "messageType": "error",
-        "pageUrl": "/messages:e1306",
-        "messageContent": "Used when a format string that uses unnamed conversion specifiers is given too few arguments",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1306",
+        "messageContent": "Not enough arguments for format string"
     },
     {
-        "code": "E1310",
+        "code": "e1310",
         "messageType": "error",
-        "pageUrl": "/messages:e1310",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:e1310",
+        "messageContent": "Suspicious argument in %s.%s call"
     },
     {
-        "code": "F0001",
+        "code": "f0001",
         "messageType": "format",
-        "pageUrl": "/messages:f0001",
-        "messageContent": "(error prevented analysis; message varies)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0001",
+        "messageContent": "(error prevented analysis; message varies)"
     },
     {
-        "code": "F0002",
+        "code": "f0002",
         "messageType": "format",
-        "pageUrl": "/messages:f0002",
-        "messageContent": "%s: %s (message varies)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0002",
+        "messageContent": "%s: %s (message varies)"
     },
     {
-        "code": "F0003",
+        "code": "f0003",
         "messageType": "format",
-        "pageUrl": "/messages:f0003",
-        "messageContent": "ignored builtin module %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0003",
+        "messageContent": "ignored builtin module %s"
     },
     {
-        "code": "F0004",
+        "code": "f0004",
         "messageType": "format",
-        "pageUrl": "/messages:f0004",
-        "messageContent": "unexpected inferred value %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0004",
+        "messageContent": "unexpected inferred value %s"
     },
     {
-        "code": "F0010",
+        "code": "f0010",
         "messageType": "format",
-        "pageUrl": "/messages:f0010",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0010",
+        "messageContent": "error while code parsing: %s"
     },
     {
-        "code": "F0202",
+        "code": "f0202",
         "messageType": "format",
-        "pageUrl": "/messages:f0202",
-        "messageContent": "Unable to check methods signature (%s / %s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0202",
+        "messageContent": "Unable to check methods signature (%s / %s)"
     },
     {
-        "code": "F0220",
+        "code": "f0220",
         "messageType": "format",
-        "pageUrl": "/messages:f0220",
-        "messageContent": "failed to resolve interfaces implemented by %s (%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0220",
+        "messageContent": "failed to resolve interfaces implemented by %s (%s)"
     },
     {
-        "code": "F0321",
+        "code": "f0321",
         "messageType": "format",
-        "pageUrl": "/messages:f0321",
-        "messageContent": "Format detection error in %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0321",
+        "messageContent": "Old: Format detection error in %r"
     },
     {
-        "code": "F0401",
+        "code": "f0401",
         "messageType": "format",
-        "pageUrl": "/messages:f0401",
-        "messageContent": "Unable to import %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:f0401",
+        "messageContent": "Unable to import %s"
     },
     {
-        "code": "I0001",
+        "code": "i0001",
         "messageType": "information",
-        "pageUrl": "/messages:i0001",
-        "messageContent": "Unable to run raw checkers on built-in module %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0001",
+        "messageContent": "Unable to run raw checkers on built-in module %s"
     },
     {
-        "code": "I0010",
+        "code": "i0010",
         "messageType": "information",
-        "pageUrl": "/messages:i0010",
-        "messageContent": "Unable to consider inline option %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0010",
+        "messageContent": "Unable to consider inline option %r"
     },
     {
-        "code": "I0011",
+        "code": "i0011",
         "messageType": "information",
-        "pageUrl": "/messages:i0011",
-        "messageContent": "Locally disabling %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0011",
+        "messageContent": "Locally disabling %s"
     },
     {
-        "code": "I0012",
+        "code": "i0012",
         "messageType": "information",
-        "pageUrl": "/messages:i0012",
-        "messageContent": "Locally enabling %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0012",
+        "messageContent": "Locally enabling %s"
     },
     {
-        "code": "I0013",
+        "code": "i0013",
         "messageType": "information",
-        "pageUrl": "/messages:i0013",
-        "messageContent": "Ignoring entire file",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0013",
+        "messageContent": "Ignoring entire file"
     },
     {
-        "code": "I0014",
+        "code": "i0014",
         "messageType": "information",
-        "pageUrl": "/messages:i0014",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0014",
+        "messageContent": "Used deprecated directive \"pylint:disable-all\" or \"pylint:disable=all\""
     },
     {
-        "code": "I0020",
+        "code": "i0020",
         "messageType": "information",
-        "pageUrl": "/messages:i0020",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0020",
+        "messageContent": "Suppressed %s (from line %d)"
     },
     {
-        "code": "I0021",
+        "code": "i0021",
         "messageType": "information",
-        "pageUrl": "/messages:i0021",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0021",
+        "messageContent": "Useless suppression of %s"
     },
     {
-        "code": "I0022",
+        "code": "i0022",
         "messageType": "information",
-        "pageUrl": "/messages:i0022",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:i0022",
+        "messageContent": "Deprecated pragma \"pylint:disable-msg\" or \"pylint:enable-msg\""
     },
     {
-        "code": "R0201",
+        "code": "r0201",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0201",
-        "messageContent": "Method could be a function",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0201",
+        "messageContent": "Method could be a function"
     },
     {
-        "code": "R0401",
+        "code": "r0401",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0401",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0401",
+        "messageContent": "Cyclic import (%s)"
     },
     {
-        "code": "R0801",
+        "code": "r0801",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0801",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0801",
+        "messageContent": "Similar lines in %s files"
     },
     {
-        "code": "R0901",
+        "code": "r0901",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0901",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0901",
+        "messageContent": "Too many ancestors (%s/%s)"
     },
     {
-        "code": "R0902",
+        "code": "r0902",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0902",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0902",
+        "messageContent": "Too many instance attributes (%s/%s)"
     },
     {
-        "code": "R0903",
+        "code": "r0903",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0903",
-        "messageContent": "To quote Blender from StackOverflow:\n\n\"The error basically says that classes aren't meant to just store data, as you're basically treating the class as a dictionary.\"\n\nSee [http://stackoverflow.com/questions/14027417/what-does-pylints-too-few-public-methods-message-mean StackOverflow: What does pylint's “Too few public methods” message mean]",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0903",
+        "messageContent": "Too few public methods (%s/%s)"
     },
     {
-        "code": "R0904",
+        "code": "r0904",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0904",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0904",
+        "messageContent": "Too many public methods (%s/%s)"
     },
     {
-        "code": "R0911",
+        "code": "r0911",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0911",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0911",
+        "messageContent": "Too many return statements (%s/%s)"
     },
     {
-        "code": "R0912",
+        "code": "r0912",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0912",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0912",
+        "messageContent": "Too many branches (%s/%s)"
     },
     {
-        "code": "R0913",
+        "code": "r0913",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0913",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0913",
+        "messageContent": "Too many arguments (%s/%s)"
     },
     {
-        "code": "R0914",
+        "code": "r0914",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0914",
-        "messageContent": "Too many local variables (%s/%s)",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0914",
+        "messageContent": "Too many local variables (%s/%s)"
     },
     {
-        "code": "R0915",
+        "code": "r0915",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0915",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0915",
+        "messageContent": "Too many statements (%s/%s)"
     },
     {
-        "code": "R0921",
+        "code": "r0921",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0921",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0921",
+        "messageContent": "Abstract class not referenced"
     },
     {
-        "code": "R0922",
+        "code": "r0922",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0922",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0922",
+        "messageContent": "Abstract class is only referenced %s times"
     },
     {
-        "code": "R0923",
+        "code": "r0923",
         "messageType": "refactoring",
-        "pageUrl": "/messages:r0923",
-        "messageContent": "Interface not implemented",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:r0923",
+        "messageContent": "Interface not implemented"
     },
     {
-        "code": "W0101",
+        "code": "w0101",
         "messageType": "warning",
-        "pageUrl": "/messages:w0101",
-        "messageContent": "Unreachable code",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0101",
+        "messageContent": "Unreachable code"
     },
     {
-        "code": "W0102",
+        "code": "w0102",
         "messageType": "warning",
-        "pageUrl": "/messages:w0102",
-        "messageContent": "Dangerous default value %s as argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0102",
+        "messageContent": "Dangerous default value %s as argument"
     },
     {
-        "code": "W0104",
+        "code": "w0104",
         "messageType": "warning",
-        "pageUrl": "/messages:w0104",
-        "messageContent": "Statement seems to have no effect",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0104",
+        "messageContent": "Statement seems to have no effect"
     },
     {
-        "code": "W0105",
+        "code": "w0105",
         "messageType": "warning",
-        "pageUrl": "/messages:w0105",
-        "messageContent": "String statement has no effect",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0105",
+        "messageContent": "String statement has no effect"
     },
     {
-        "code": "W0106",
+        "code": "w0106",
         "messageType": "warning",
-        "pageUrl": "/messages:w0106",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0106",
+        "messageContent": "Expression \"%s\" is assigned to nothing"
     },
     {
-        "code": "W0107",
+        "code": "w0107",
         "messageType": "warning",
-        "pageUrl": "/messages:w0107",
-        "messageContent": "Unnecessary pass statement",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0107",
+        "messageContent": "Unnecessary pass statement"
     },
     {
-        "code": "W0108",
+        "code": "w0108",
         "messageType": "warning",
-        "pageUrl": "/messages:w0108",
-        "messageContent": "Lambda may not be necessary",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0108",
+        "messageContent": "Lambda may not be necessary"
     },
     {
-        "code": "W0109",
+        "code": "w0109",
         "messageType": "warning",
-        "pageUrl": "/messages:w0109",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0109",
+        "messageContent": "Duplicate key %r in dictionary"
     },
     {
-        "code": "W0110",
+        "code": "w0110",
         "messageType": "warning",
-        "pageUrl": "/messages:w0110",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0110",
+        "messageContent": "map/filter on lambda could be replaced by comprehension"
     },
     {
-        "code": "W0120",
+        "code": "w0120",
         "messageType": "warning",
-        "pageUrl": "/messages:w0120",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0120",
+        "messageContent": "Else clause on loop without a break statement"
     },
     {
-        "code": "W0121",
+        "code": "w0121",
         "messageType": "warning",
-        "pageUrl": "/messages:w0121",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0121",
+        "messageContent": "Use raise ErrorClass(args) instead of raise ErrorClass, args."
     },
     {
-        "code": "W0122",
+        "code": "w0122",
         "messageType": "warning",
-        "pageUrl": "/messages:w0122",
-        "messageContent": "Use of exec",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0122",
+        "messageContent": "Use of exec"
     },
     {
-        "code": "W0141",
+        "code": "w0141",
         "messageType": "warning",
-        "pageUrl": "/messages:w0141",
-        "messageContent": "Used builtin function %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0141",
+        "messageContent": "Used builtin function %r"
     },
     {
-        "code": "W0142",
+        "code": "w0142",
         "messageType": "warning",
-        "pageUrl": "/messages:w0142",
-        "messageContent": "Used * or ** magic",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0142",
+        "messageContent": "Used * or ** magic"
     },
     {
-        "code": "W0150",
+        "code": "w0150",
         "messageType": "warning",
-        "pageUrl": "/messages:w0150",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0150",
+        "messageContent": "%s statement in finally block may swallow exception"
     },
     {
-        "code": "W0199",
+        "code": "w0199",
         "messageType": "warning",
-        "pageUrl": "/messages:w0199",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0199",
+        "messageContent": "Assert called on a 2-uple. Did you mean \\'assert x,y\\'?"
     },
     {
-        "code": "W0201",
+        "code": "w0201",
         "messageType": "warning",
-        "pageUrl": "/messages:w0201",
-        "messageContent": "Attribute %r defined outside __init__",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0201",
+        "messageContent": "Attribute %r defined outside __init__"
     },
     {
-        "code": "W0211",
+        "code": "w0211",
         "messageType": "warning",
-        "pageUrl": "/messages:w0211",
-        "messageContent": "Static method with %r as first argument",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0211",
+        "messageContent": "Static method with %r as first argument"
     },
     {
-        "code": "W0212",
+        "code": "w0212",
         "messageType": "warning",
-        "pageUrl": "/messages:w0212",
-        "messageContent": "Access to a protected member %s of a client class",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0212",
+        "messageContent": "Access to a protected member %s of a client class"
     },
     {
-        "code": "W0221",
+        "code": "w0221",
         "messageType": "warning",
-        "pageUrl": "/messages:w0221",
-        "messageContent": "Arguments number differs from %s method",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0221",
+        "messageContent": "Arguments number differs from %s method"
     },
     {
-        "code": "W0222",
+        "code": "w0222",
         "messageType": "warning",
-        "pageUrl": "/messages:w0222",
-        "messageContent": "Signature differs from %s method",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0222",
+        "messageContent": "Signature differs from %s method"
     },
     {
-        "code": "W0223",
+        "code": "w0223",
         "messageType": "warning",
-        "pageUrl": "/messages:w0223",
-        "messageContent": "Method %r is abstract in class %r but is not overridden",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0223",
+        "messageContent": "Method %r is abstract in class %r but is not overridden"
     },
     {
-        "code": "W0231",
+        "code": "w0231",
         "messageType": "warning",
-        "pageUrl": "/messages:w0231",
-        "messageContent": "__init__ method from base class %r is not called",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0231",
+        "messageContent": "__init__ method from base class %r is not called"
     },
     {
-        "code": "W0232",
+        "code": "w0232",
         "messageType": "warning",
-        "pageUrl": "/messages:w0232",
-        "messageContent": "Class has no __init__ method",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0232",
+        "messageContent": "Class has no __init__ method"
     },
     {
-        "code": "W0233",
+        "code": "w0233",
         "messageType": "warning",
-        "pageUrl": "/messages:w0233",
-        "messageContent": "__init__ method from a non direct base class %r is called",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0233",
+        "messageContent": "__init__ method from a non direct base class %r is called"
     },
     {
-        "code": "W0234",
+        "code": "w0234",
         "messageType": "warning",
-        "pageUrl": "/messages:w0234",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0234",
+        "messageContent": "iter returns non-iterator"
     },
     {
-        "code": "W0301",
+        "code": "w0301",
         "messageType": "warning",
-        "pageUrl": "/messages:w0301",
-        "messageContent": "Unnecessary semicolon",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0301",
+        "messageContent": "Unnecessary semicolon"
     },
     {
-        "code": "W0311",
+        "code": "w0311",
         "messageType": "warning",
-        "pageUrl": "/messages:w0311",
-        "messageContent": "Bad indentation. Found %s %s, expected %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0311",
+        "messageContent": "Bad indentation. Found %s %s, expected %s"
     },
     {
-        "code": "W0312",
+        "code": "w0312",
         "messageType": "warning",
-        "pageUrl": "/messages:w0312",
-        "messageContent": "Found indentation with %ss instead of %ss\n\nFound indentation with tabs instead of spaces\nFound indentation with spaces instead of tabs",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0312",
+        "messageContent": "Found indentation with %ss instead of %ss"
     },
     {
-        "code": "W0331",
+        "code": "w0331",
         "messageType": "warning",
-        "pageUrl": "/messages:w0331",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0331",
+        "messageContent": "Use of the <> operator"
     },
     {
-        "code": "W0332",
+        "code": "w0332",
         "messageType": "warning",
-        "pageUrl": "/messages:w0332",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0332",
+        "messageContent": "Use of \"l\" as long integer identifier"
     },
     {
-        "code": "W0333",
+        "code": "w0333",
         "messageType": "warning",
-        "pageUrl": "/messages:w0333",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0333",
+        "messageContent": "Use of the `` operator"
     },
     {
-        "code": "W0401",
+        "code": "w0401",
         "messageType": "warning",
-        "pageUrl": "/messages:w0401",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0401",
+        "messageContent": "Wildcard import %s"
     },
     {
-        "code": "W0402",
+        "code": "w0402",
         "messageType": "warning",
-        "pageUrl": "/messages:w0402",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0402",
+        "messageContent": "Uses of a deprecated module %r"
     },
     {
-        "code": "W0403",
+        "code": "w0403",
         "messageType": "warning",
-        "pageUrl": "/messages:w0403",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0403",
+        "messageContent": "Relative import %r, should be %r"
     },
     {
-        "code": "W0404",
+        "code": "w0404",
         "messageType": "warning",
-        "pageUrl": "/messages:w0404",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0404",
+        "messageContent": "Reimport %r (imported line %s)"
     },
     {
-        "code": "W0406",
+        "code": "w0406",
         "messageType": "warning",
-        "pageUrl": "/messages:w0406",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0406",
+        "messageContent": "Module import itself"
     },
     {
-        "code": "W0410",
+        "code": "w0410",
         "messageType": "warning",
-        "pageUrl": "/messages:w0410",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0410",
+        "messageContent": "__future__ import is not the first non docstring statement"
     },
     {
-        "code": "W0511",
+        "code": "w0511",
         "messageType": "warning",
-        "pageUrl": "/messages:w0511",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0511",
+        "messageContent": "(warning notes in code comments; message varies)"
     },
     {
-        "code": "W0512",
+        "code": "w0512",
         "messageType": "warning",
-        "pageUrl": "/messages:w0512",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0512",
+        "messageContent": "Cannot decode using encoding \"%s\", unexpected byte at position %d"
     },
     {
-        "code": "W0601",
+        "code": "w0601",
         "messageType": "warning",
-        "pageUrl": "/messages:w0601",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0601",
+        "messageContent": "Global variable %r undefined at the module level"
     },
     {
-        "code": "W0602",
+        "code": "w0602",
         "messageType": "warning",
-        "pageUrl": "/messages:w0602",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0602",
+        "messageContent": "Using global for %r but no assigment is done"
     },
     {
-        "code": "W0603",
+        "code": "w0603",
         "messageType": "warning",
-        "pageUrl": "/messages:w0603",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0603",
+        "messageContent": "Using the global statement"
     },
     {
-        "code": "W0604",
+        "code": "w0604",
         "messageType": "warning",
-        "pageUrl": "/messages:w0604",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0604",
+        "messageContent": "Using the global statement at the module level"
     },
     {
-        "code": "W0611",
+        "code": "w0611",
         "messageType": "warning",
-        "pageUrl": "/messages:w0611",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0611",
+        "messageContent": "Unused import %s"
     },
     {
-        "code": "W0612",
+        "code": "w0612",
         "messageType": "warning",
-        "pageUrl": "/messages:w0612",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0612",
+        "messageContent": "Unused variable %r"
     },
     {
-        "code": "W0613",
+        "code": "w0613",
         "messageType": "warning",
-        "pageUrl": "/messages:w0613",
-        "messageContent": "Unused argument %r",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0613",
+        "messageContent": "Unused argument %r"
     },
     {
-        "code": "W0614",
+        "code": "w0614",
         "messageType": "warning",
-        "pageUrl": "/messages:w0614",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0614",
+        "messageContent": "Unused import %s from wildcard import"
     },
     {
-        "code": "W0621",
+        "code": "w0621",
         "messageType": "warning",
-        "pageUrl": "/messages:w0621",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0621",
+        "messageContent": "Redefining name %r from outer scope (line %s)"
     },
     {
-        "code": "W0622",
+        "code": "w0622",
         "messageType": "warning",
-        "pageUrl": "/messages:w0622",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0622",
+        "messageContent": "Redefining built-in %r"
     },
     {
-        "code": "W0623",
+        "code": "w0623",
         "messageType": "warning",
-        "pageUrl": "/messages:w0623",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0623",
+        "messageContent": "Redefining name %r from %s in exception handler"
     },
     {
-        "code": "W0631",
+        "code": "w0631",
         "messageType": "warning",
-        "pageUrl": "/messages:w0631",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0631",
+        "messageContent": "Using possibly undefined loop variable %r"
     },
     {
-        "code": "W0632",
+        "code": "w0632",
         "messageType": "warning",
-        "pageUrl": "/messages:w0632",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0632",
+        "messageContent": "Possible unbalanced tuple unpacking with sequence%s: …"
     },
     {
-        "code": "W0633",
+        "code": "w0633",
         "messageType": "warning",
-        "pageUrl": "/messages:w0633",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0633",
+        "messageContent": "Attempting to unpack a non-sequence%s"
     },
     {
-        "code": "W0701",
+        "code": "w0701",
         "messageType": "warning",
-        "pageUrl": "/messages:w0701",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0701",
+        "messageContent": "Raising a string exception"
     },
     {
-        "code": "W0702",
+        "code": "w0702",
         "messageType": "warning",
-        "pageUrl": "/messages:w0702",
-        "messageContent": "++ Message:\n\nNo exception type(s) specified\n\n++ Description:\n\nUsed when an except clause doesn’t specify exceptions type to catch.\n\n++ Explanation:\n\nCatching exceptions should be as precise as possible. The type of exceptions that can be raised should be known in advance. Using a catch-all Exception instance defeats the purpose of knowing the type of error that occured, and prohibits the use of tailored responses.",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0702",
+        "messageContent": "No exception type(s) specified"
     },
     {
-        "code": "W0703",
+        "code": "w0703",
         "messageType": "warning",
-        "pageUrl": "/messages:w0703",
-        "messageContent": "Catching too general exception %s",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0703",
+        "messageContent": "Catching too general exception %s"
     },
     {
-        "code": "W0704",
+        "code": "w0704",
         "messageType": "warning",
-        "pageUrl": "/messages:w0704",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0704",
+        "messageContent": "Except doesn't do anything"
     },
     {
-        "code": "W0710",
+        "code": "w0710",
         "messageType": "warning",
-        "pageUrl": "/messages:w0710",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0710",
+        "messageContent": "Exception doesn't inherit from standard \"Exception\" class"
     },
     {
-        "code": "W0711",
+        "code": "w0711",
         "messageType": "warning",
-        "pageUrl": "/messages:w0711",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0711",
+        "messageContent": "Exception to catch is the result of a binary \"%s\" operation"
     },
     {
-        "code": "W0712",
+        "code": "w0712",
         "messageType": "warning",
-        "pageUrl": "/messages:w0712",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w0712",
+        "messageContent": "Implicit unpacking of exceptions is not supported in Python 3"
     },
     {
-        "code": "W1001",
+        "code": "w1001",
         "messageType": "warning",
-        "pageUrl": "/messages:w1001",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1001",
+        "messageContent": "Use of \"property\" on an old style class"
     },
     {
-        "code": "W1111",
+        "code": "w1111",
         "messageType": "warning",
-        "pageUrl": "/messages:w1111",
-        "messageContent": "Assigning to function call which only returns None",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1111",
+        "messageContent": "Assigning to function call which only returns None"
     },
     {
-        "code": "W1201",
+        "code": "w1201",
         "messageType": "warning",
-        "pageUrl": "/messages:w1201",
-        "messageContent": "Specify string format arguments as logging function parameters",
-        "hasPage": true
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1201",
+        "messageContent": "Specify string format arguments as logging function parameters"
     },
     {
-        "code": "W1300",
+        "code": "w1300",
         "messageType": "warning",
-        "pageUrl": "/messages:w1300",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1300",
+        "messageContent": "Format string dictionary key should be a string, not %s"
     },
     {
-        "code": "W1301",
+        "code": "w1301",
         "messageType": "warning",
-        "pageUrl": "/messages:w1301",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1301",
+        "messageContent": "Unused key %r in format string dictionary"
     },
     {
-        "code": "W1401",
+        "code": "w1401",
         "messageType": "warning",
-        "pageUrl": "/messages:w1401",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1401",
+        "messageContent": "Anomalous backslash in string: \\'%s\\'. String constant might be missing an r prefix."
     },
     {
-        "code": "W1402",
+        "code": "w1402",
         "messageType": "warning",
-        "pageUrl": "/messages:w1402",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1402",
+        "messageContent": "Anomalous Unicode escape in byte string: \\'%s\\'. String constant might be missing an r or u prefix."
     },
     {
-        "code": "W1501",
+        "code": "w1501",
         "messageType": "warning",
-        "pageUrl": "/messages:w1501",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0001",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0001",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0002",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0002",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0003",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0003",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0004",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0004",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0101",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0101",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0401",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0401",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0402",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0402",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0701",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0701",
-        "messageContent": "",
-        "hasPage": false
-    },
-    {
-        "code": "RP0801",
-        "messageType": "recommendation",
-        "pageUrl": "/messages:rp0801",
-        "messageContent": "",
-        "hasPage": false
+        "pageUrl": "http://pylint-messages.wikidot.com/messages:w1501",
+        "messageContent": "\"%s\" is not a valid mode for open."
     }
 ]

@@ -17,8 +17,7 @@ let PylintMessageSchema = new mongoose.Schema({
         enum: Object.values(codeLetterToType)
     },
     pageUrl: String,
-    messageContent: String,
-    hasPage: Boolean
+    messageContent: String
 });
 
 module.exports = {
