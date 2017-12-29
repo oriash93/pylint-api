@@ -463,55 +463,55 @@
     },
     {
         "code": "f0001",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0001",
         "messageContent": "(error prevented analysis; message varies)"
     },
     {
         "code": "f0002",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0002",
         "messageContent": "%s: %s (message varies)"
     },
     {
         "code": "f0003",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0003",
         "messageContent": "ignored builtin module %s"
     },
     {
         "code": "f0004",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0004",
         "messageContent": "unexpected inferred value %s"
     },
     {
         "code": "f0010",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0010",
         "messageContent": "error while code parsing: %s"
     },
     {
         "code": "f0202",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0202",
         "messageContent": "Unable to check methods signature (%s / %s)"
     },
     {
         "code": "f0220",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0220",
         "messageContent": "failed to resolve interfaces implemented by %s (%s)"
     },
     {
         "code": "f0321",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0321",
         "messageContent": "Old: Format detection error in %r"
     },
     {
         "code": "f0401",
-        "messageType": "format",
+        "messageType": "fatal",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:f0401",
         "messageContent": "Unable to import %s"
     },
@@ -571,91 +571,91 @@
     },
     {
         "code": "r0201",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0201",
         "messageContent": "Method could be a function"
     },
     {
         "code": "r0401",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0401",
         "messageContent": "Cyclic import (%s)"
     },
     {
         "code": "r0801",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0801",
         "messageContent": "Similar lines in %s files"
     },
     {
         "code": "r0901",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0901",
         "messageContent": "Too many ancestors (%s/%s)"
     },
     {
         "code": "r0902",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0902",
         "messageContent": "Too many instance attributes (%s/%s)"
     },
     {
         "code": "r0903",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0903",
         "messageContent": "Too few public methods (%s/%s)"
     },
     {
         "code": "r0904",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0904",
         "messageContent": "Too many public methods (%s/%s)"
     },
     {
         "code": "r0911",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0911",
         "messageContent": "Too many return statements (%s/%s)"
     },
     {
         "code": "r0912",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0912",
         "messageContent": "Too many branches (%s/%s)"
     },
     {
         "code": "r0913",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0913",
         "messageContent": "Too many arguments (%s/%s)"
     },
     {
         "code": "r0914",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0914",
         "messageContent": "Too many local variables (%s/%s)"
     },
     {
         "code": "r0915",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0915",
         "messageContent": "Too many statements (%s/%s)"
     },
     {
         "code": "r0921",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0921",
         "messageContent": "Abstract class not referenced"
     },
     {
         "code": "r0922",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0922",
         "messageContent": "Abstract class is only referenced %s times"
     },
     {
         "code": "r0923",
-        "messageType": "refactoring",
+        "messageType": "refactor",
         "pageUrl": "http://pylint-messages.wikidot.com/messages:r0923",
         "messageContent": "Interface not implemented"
     },
