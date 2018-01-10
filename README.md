@@ -66,6 +66,5 @@ Gets information about a specific message by its code:
 * [express](https://www.npmjs.com/package/express)
 * [body-parser](https://www.npmjs.com/package/body-parser)
 * [cheerio](https://www.npmjs.com/package/cheerio)
-* [fs](https://www.npmjs.com/package/fs)
-* [mongoose](https://www.npmjs.com/package/mongoose)
+* [lowdb](https://www.npmjs.com/package/lowdb)
 * [request](https://www.npmjs.com/package/request)

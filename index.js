@@ -1,14 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 27017;
-const mongoose = require('mongoose');
-const PylintMessage = require('./api/models/pylintModel').model;
 const bodyParser = require('body-parser');
-
-mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/PylintDb', {
-    useMongoClient: true
-});
 
 app.use(bodyParser.urlencoded({
     extended: true

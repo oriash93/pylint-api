@@ -1,9 +1,6 @@
 'use strict';
 
-const mongoose = require('mongoose');
-const PylintMessage = mongoose.model('Message');
 const codeTypes = require('../models/pylintModel').types;
-
 const db = require('../database/db').db;
 
 exports.list_all_messages = function (req, res) {
