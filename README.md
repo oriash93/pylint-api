@@ -50,13 +50,12 @@ Gets information about a specific message by its code:
 <code>http://localhost:27017/code/{code}</code>
 #### Production
 <code>https://pylint-api.herokuapp.com/code/{code}</code>
-
 <br>
 <br>Example:
 <br><code>https://pylint-api.herokuapp.com/code/R0914</code>
 
 ### Type
-<br>Gets information about messages by type:
+Gets information about messages by type:
 <br>NOTE: case insensitive
 #### Development
 <code>http://localhost:27017/type/{type|typeLetter}</code>
