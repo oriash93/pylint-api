@@ -30,7 +30,6 @@ $ npm install
 
 ## Running Locally
 ```sh
-# development
 npm run start
 ```
 
@@ -40,27 +39,35 @@ https://pylint-api.herokuapp.com/all
 ## API Usage
 ### All
 Gets information about all the messages:
-<br><code>http://localhost:27017/all</code>
+#### Development
+<code>http://localhost:27017/all</code>
+#### Production
+<code>https://pylint-api.herokuapp.com/all</code>
 
 ### Code
 Gets information about a specific message by its code:
-<br><code>http://localhost:27017/code/{code}</code>
+#### Development
+<code>http://localhost:27017/code/{code}</code>
+#### Production
+<code>https://pylint-api.herokuapp.com/code/{code}</code>
+
 <br>
 <br>Example:
-<br><code>http://localhost:27017/code/R0914</code>
+<br><code>https://pylint-api.herokuapp.com/code/R0914</code>
 
 ### Type
 <br>Gets information about messages by type:
 <br>NOTE: case insensitive
-<br><code>http://localhost:27017/type/{type}</code>
-<br>Or
-<br><code>http://localhost:27017/type/{typeLetter}</code>
+#### Development
+<code>http://localhost:27017/type/{type|typeLetter}</code>
+#### Production
+<code>https://pylint-api.herokuapp.com/type/{type|typeLetter}</code>
 <br>
 <br>Examples:
-<br><code>http://localhost:27017/code/error</code>
-<br><code>http://localhost:27017/code/Warning</code>
-<br><code>http://localhost:27017/code/c</code>
-<br><code>http://localhost:27017/code/F</code>
+<br><code>https://pylint-api.herokuapp.com/type/error</code>
+<br><code>https://pylint-api.herokuapp.com/type/Warning</code>
+<br><code>https://pylint-api.herokuapp.com/type/c</code>
+<br><code>https://pylint-api.herokuapp.com/type/F</code>
 
 ## Modules used
 * [express](https://www.npmjs.com/package/express)
