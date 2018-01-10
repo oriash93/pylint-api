@@ -4,9 +4,8 @@ const codeLetterToType = {
     'c': 'conventions',
     'e': 'error',
     'f': 'fatal',
-    'i': 'information', // TODO: is it though?
+    'i': 'information',
     'r': 'refactor',
-    'rp': 'recommendation', // TODO: is it though?
     'w': 'warning',
 };
 
