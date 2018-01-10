@@ -1,6 +1,6 @@
 const cheerio = require('cheerio');
 const request = require('request');
-const fs = require('fs');
+const db = require('../api/database/db').db;
 
 const allMessages = [];
 const outputFilename = 'scraper/data.json';
@@ -21,18 +21,19 @@ function parseAllCodesPage(data) {
             pageUrl: messageUrl + code,
             messageContent: line.slice(7)
         };
-        allMessages.push(item);
+        db.get('messages')
+            .push(item)
+            .write();
     });
 }
 
-function writeToFile() {
-    fs.writeFile(outputFilename, JSON.stringify(allMessages, null, 4), function (err) {});
-}
-
 async function main() {
+    db.get('messages')
+        .remove()
+        .write();
+
     const codesResponse = await request(allCodesUrl, function (error, response, body) {
         parseAllCodesPage(body);
-        writeToFile();
     });
 }
 

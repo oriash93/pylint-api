@@ -4,23 +4,20 @@ const mongoose = require('mongoose');
 const PylintMessage = mongoose.model('Message');
 const codeTypes = require('../models/pylintModel').types;
 
+const db = require('../database/db').db;
+
 exports.list_all_messages = function (req, res) {
-    PylintMessage.find({}, function (err, message) {
-        if (err)
-            res.send(err);
-        res.json(message);
-    });
+    let messages = db.get('messages').value();
+    res.send(messages);
 };
 
 exports.get_message_by_code = function (req, res) {
-    PylintMessage.find({
-        code: req.params.messageCode
-    },
-    function (err, message) {
-        if (err)
-            res.send(err);
-        res.json(message);
-    });
+    let messages = db.get('messages')
+        .filter({
+            code: req.params.messageCode.toLowerCase()
+        })
+        .value();
+    res.send(messages);
 };
 
 exports.get_messages_by_type = function (req, res) {
@@ -28,13 +25,9 @@ exports.get_messages_by_type = function (req, res) {
     let type = key;
     if (codeTypes[key])
         type = codeTypes[key];
-
-    PylintMessage.find({
-        messageType: type
-    },
-    function (err, messages) {
-        if (err)
-            res.send(err);
-        res.json(messages);
-    });
+    let messages = db.get('messages')
+        .filter({
+            messageType: type
+        }).value();
+    res.send(messages);
 };
