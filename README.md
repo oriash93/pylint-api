@@ -32,10 +32,10 @@ $ npm install
 ```sh
 # development
 npm run start
-
-# production
-Currently unsupported.
 ```
+
+## Deployed on
+https://pylint-api.herokuapp.com/all
 
 ## API Usage
 ### All
