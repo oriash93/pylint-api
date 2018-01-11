@@ -33,6 +33,11 @@ $ npm install
 npm run start
 ```
 
+To start the API server without scraping, use:
+```sh
+npm run api
+```
+
 ## Deployed on
 https://pylint-api.herokuapp.com/all
 
