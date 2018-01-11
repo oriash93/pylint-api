@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "node scraper/scraper.js",
+    "api": "node index.js",
     "start": "npm run update && node index.js"
   },
   "repository": {
