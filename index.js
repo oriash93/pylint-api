@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-const routes = require('./api/routes/pylintRoutes');
+const routes = require('./api/routes/routes');
 routes(app);
 
 app.use(function (req, res) {

@@ -1,7 +1,7 @@
 'use strict';
 
-const codeTypes = require('../models/pylintModel').types;
-const db = require('../database/db').db;
+const codeTypes = require('../../database/db').types;
+const db = require('../../database/db').db;
 
 exports.list_all_messages = function (req, res) {
     let messages = db.get('messages').value();

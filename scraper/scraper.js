@@ -1,13 +1,13 @@
 const cheerio = require('cheerio');
 const request = require('request');
-const db = require('../api/database/db').db;
+const db = require('../database/db').db;
 
 const allMessages = [];
 const outputFilename = 'scraper/data.json';
 const baseUrl = 'http://pylint-messages.wikidot.com';
 const allCodesUrl = baseUrl + '/all-codes';
 const messageUrl = baseUrl + '/messages:';
-const codeTypes = require('../api/models/pylintModel').types;
+const codeTypes = require('../database/db').types;
 
 function parseAllCodesPage(data) {
     let $ = cheerio.load(data);
