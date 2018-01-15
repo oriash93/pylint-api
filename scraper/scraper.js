@@ -1,6 +1,6 @@
 const cheerio = require('cheerio');
 const request = require('request');
-const {db, types} = require('../database/database');
+const {db, types} = require('../app/database');
 
 const baseUrl = 'http://pylint-messages.wikidot.com';
 const allCodesUrl = `${baseUrl}/all-codes`;

@@ -2,7 +2,7 @@
 
 const {Router} = require('express');
 const {expressHelpers: {createApiEndpoint: _}} = require('@welldone-software/node-toolbelt');
-const api = require('../controller/controller');
+const api = require('./api');
 
 const router = new Router();
 

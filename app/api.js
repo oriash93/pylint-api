@@ -1,6 +1,6 @@
 'use strict';
 
-const {types, db} = require('../../database/database');
+const {types, db} = require('./database');
 
 exports.listAllMessages = () => db.get('messages').value();
 exports.getMessageByCode = code => db.get('messages').filter({code}).value();
