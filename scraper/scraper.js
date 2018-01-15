@@ -1,40 +1,34 @@
 const cheerio = require('cheerio');
 const request = require('request');
-const db = require('../database/database').db;
+const {db, types} = require('../database/database');
 
-const allMessages = [];
-const outputFilename = 'scraper/data.json';
 const baseUrl = 'http://pylint-messages.wikidot.com';
-const allCodesUrl = baseUrl + '/all-codes';
-const messageUrl = baseUrl + '/messages:';
-const codeTypes = require('../database/database').types;
+const allCodesUrl = `${baseUrl}/all-codes`;
+const messageUrl = `${baseUrl}/messages:`;
 
-function parseAllCodesPage(data) {
-    let $ = cheerio.load(data);
-    let paragraph = $('div#page-content p:nth-child(2)');
-    var lines = paragraph.text().split('\n');
-    lines.forEach(function (line) {
-        let code = line.slice(0, 5).toLowerCase();
-        let item = {
-            code: code,
-            messageType: codeTypes[code[0]],
-            pageUrl: messageUrl + code,
-            messageContent: line.slice(7)
-        };
-        db.get('messages')
-            .push(item)
-            .write();
-    });
-}
+const parseLineToMessage = line => {
+    const code = line.slice(0, 5).toLowerCase();
+    return {
+        code,
+        messageType: types[code[0]],
+        pageUrl: `${messageUrl}${code}`,
+        messageContent: line.slice(7)
+    };
+};
 
-async function main() {
-    db.get('messages')
-        .remove()
-        .write();
+const parseAllCodesPage = data => {
+    const $ = cheerio.load(data);
+    const paragraph = $('div#page-content p:nth-child(2)');
+    paragraph.text().split('\n')
+        .map(parseLineToMessage)
+        .forEach(message => db.get('messages').push(message).write());
+};
 
-    const codesResponse = await request(allCodesUrl, function (error, response, body) {
-        parseAllCodesPage(body);
-    });
-}
-
-main().catch(e => console.error(e));
+db.get('messages').remove().write();
+request(allCodesUrl, function (error, response, body) {
+    if (error) {
+        console.log(error);
+        return;
+    }
+    parseAllCodesPage(body);
+});

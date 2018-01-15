@@ -7,16 +7,16 @@ db.defaults({
     messages: []
 }).write();
 
-const codeLetterToType = {
-    'c': 'conventions',
-    'e': 'error',
-    'f': 'fatal',
-    'i': 'information',
-    'r': 'refactor',
-    'w': 'warning',
-};
+const types = [
+    'conventions',
+    'error',
+    'fatal',
+    'information',
+    'refactor',
+    'warning',
+].reduce((acc, t) => {
+    acc[t[0]] = t;
+    return acc;
+}, {});
 
-module.exports = {
-    db: db,
-    types: codeLetterToType
-};
+module.exports = {db, types};

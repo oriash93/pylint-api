@@ -1,14 +1,24 @@
 'use strict';
 
-module.exports = function (app) {
-    const messagesList = require('../controller/controller');
+const {Router} = require('express');
+const {expressHelpers: {createApiEndpoint: _}} = require('@welldone-software/node-toolbelt');
+const api = require('../controller/controller');
 
-    app.route('/all')
-        .get(messagesList.list_all_messages);
+const router = new Router();
 
-    app.route('/code/:messageCode')
-        .get(messagesList.get_message_by_code);
+router.get(
+    '/all',
+    _(() => api.listAllMessages())
+);
 
-    app.route('/type/:messageType')
-        .get(messagesList.get_messages_by_type);
-};
+router.get(
+    '/code/:messageCode',
+    _(({params: {messageCode}}) => api.getMessageByCode(messageCode.toLowerCase()))
+);
+
+router.get(
+    '/type/:messageType',
+    _(({params: {messageType}}) => api.getMessagesByType(messageType.toLowerCase()))
+);
+
+module.exports = router;
