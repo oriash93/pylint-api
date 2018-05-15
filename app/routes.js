@@ -1,24 +1,30 @@
 'use strict';
 
-const {Router} = require('express');
-const {expressHelpers: {createApiEndpoint: _}} = require('@welldone-software/node-toolbelt');
+const { Router } = require('express');
 const api = require('./api');
 
 const router = new Router();
 
+const createApiEndpoint = fn => (req, res, next) => {
+    Promise.resolve()
+        .then(() => fn(req))
+        .then(result => res.send(result))
+        .catch(error => next(error))
+}
+
 router.get(
     '/all',
-    _(() => api.listAllMessages())
+    createApiEndpoint(() => api.listAllMessages())
 );
 
 router.get(
     '/code/:messageCode',
-    _(({params: {messageCode}}) => api.getMessageByCode(messageCode.toLowerCase()))
+    createApiEndpoint(({ params: { messageCode } }) => api.getMessageByCode(messageCode.toLowerCase()))
 );
 
 router.get(
     '/type/:messageType',
-    _(({params: {messageType}}) => api.getMessagesByType(messageType.toLowerCase()))
+    createApiEndpoint(({ params: { messageType } }) => api.getMessagesByType(messageType.toLowerCase()))
 );
 
 module.exports = router;

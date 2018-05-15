@@ -79,4 +79,3 @@ Gets information about messages by type:
 * [cheerio](https://www.npmjs.com/package/cheerio)
 * [lowdb](https://www.npmjs.com/package/lowdb)
 * [request](https://www.npmjs.com/package/request)
-* [@welldone-software/node-toolbelt](https://www.npmjs.com/package/@welldone-software/node-toolbelt)
