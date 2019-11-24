@@ -9,8 +9,8 @@ const createApiEndpoint = fn => (req, res, next) => {
     Promise.resolve()
         .then(() => fn(req))
         .then(result => res.send(result))
-        .catch(error => next(error))
-}
+        .catch(error => next(error));
+};
 
 router.get(
     '/all',
